@@ -19,7 +19,7 @@
     }
 
     .overall-title {
-        font-size: 64px;
+        font-size: 48px;
     }
 
     .overall-image {
