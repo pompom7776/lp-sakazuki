@@ -16,7 +16,7 @@
                 </div>
                 <div class="block-text">
                     <p>
-                        メンバーの成長を「キャリア証明書」で管理することで、<br>デジタル上で検証可能な個人情報として扱えます。
+                        メンバーの成長を「キャリア証明書」で管理することで、<br class="pc">デジタル上で検証可能な個人情報として扱えます。
                     </p>
                 </div>
             </div>
@@ -36,7 +36,7 @@
                 </div>
                 <div class="block-text">
                     <p>
-                        キャリア証明書をスカウトプラットフォームに連携すると、<br>さまざまな企業から優良なオファーが届きます。
+                        キャリア証明書をスカウトプラットフォームに連携すると、<br class="pc">さまざまな企業から優良なオファーが届きます。
                     </p>
                 </div>
             </div>
@@ -56,7 +56,7 @@
                 </div>
                 <div class="block-text">
                     <p>
-                        独自のダッシュボードで、「所属大学」「インターン先」<br>「就職先」までの一連のキャリアを可視化できます。
+                        独自のダッシュボードで、「所属大学」「インターン先」<br class="pc">「就職先」までの一連のキャリアを可視化できます。
                     </p>
                 </div>
             </div>
@@ -65,6 +65,9 @@
 </template>
 
 <style scoped>
+.pc{
+    display: block;
+}
 .melit-body {
     padding: 25px;
     background-color: #7FC0EA;
@@ -136,6 +139,9 @@
 }
 
 @media screen and (max-width: 768px) {
+    .pc{
+        display: none;
+    }
     .melit-block {
         width: 100%;
         padding: 10px;
