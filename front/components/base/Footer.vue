@@ -97,6 +97,28 @@
     font-size: 12px;
     margin-left: 20px;
 }
+@media screen and (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+    }
 
+    .footer-links {
+        margin-top: 10px;
+    }
+    .footer-item {
+        padding: 5px 10px;
+        text-align: center;
+    }
+
+    .footer-item:not(:last-child)::after {
+        display: none;
+    }
+    .footer-legal p {
+        color: #888;
+        font-size: 12px;
+        margin: 0px;
+        text-align: center;
+    }
+}
 
 </style>
