@@ -3,7 +3,7 @@
         <h1>導入申込</h1>
     </div>
     <div class="container">
-      <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSezg3A4qeEZBlo8jPIGwr133wfQC_8vWvVxQtUwvabKtXNIoA/formResponse">
+      <form action="https://docs.google.com/forms/d/e/1FAIpQLSfsJXRqnjtsOZbQwSMkLeFkBbRCzzKKRVDr4p3xTa4C4vhhfw/viewform?usp=sf_link">
         <label>氏名<br>
             <input type="text" name="entry.15228836" class="TextBox" placeholder="山田太郎">
         </label>
@@ -33,8 +33,6 @@
 
 <style>
   .Contact {
-    font-size: 64px;
-    font-weight: bold;
     text-align: center; /* タイトルを中央に */
     margin-top: 50px;
     margin-bottom: 30px; /* フォームとの間のスペースを調整 */
@@ -42,7 +40,7 @@
   }
 
   .Contact h1{
-    font-size: 64px;
+    font-size: 48px;
     color: #1D4592;
   }
 
