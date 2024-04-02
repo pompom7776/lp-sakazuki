@@ -28,16 +28,16 @@
         >
             <ul class="nav__list">
             <li class="nav__item">
-                <a href="/" class="nav__link nav__link--current">sakazukiとは？</a>
+                <a href="/#" class="nav__link nav__link--current">sakazukiとは？</a>
             </li>
             <li class="nav__item">
-                <a href="/about" class="nav__link">導入メリット</a>
+                <a href="/#about" class="nav__link">導入メリット</a>
             </li>
             <li class="nav__item">
-                <a href="/information" class="nav__link">モデル</a>
+                <a href="/#information" class="nav__link">モデル</a>
             </li>
             <li class="nav__item">
-                <a href="/contact" class="nav__link">コンタクト</a>
+                <a href="/#contact" class="nav__link">コンタクト</a>
             </li>
             </ul>
         </nav>
@@ -80,7 +80,8 @@ beforeUnmounted() {
 .header {
     position: fixed;
     width: 100%;
-    padding: 10px;
+    height: 60px;
+    padding: 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -90,7 +91,7 @@ beforeUnmounted() {
 }
 
 .header__title {
-    margin: 0;
+    margin-left: 10px;
     font-size: 1.5rem;
 }
 .header__title img {
@@ -199,8 +200,9 @@ item ul li a {
 @media (max-width: 768px) {
     .header {
         position: fixed;
-        width:97%;
-        padding: 5px;
+        height: 60px;
+        width:100%;
+        /* padding: 5px; */
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -209,17 +211,18 @@ item ul li a {
         box-shadow: 0px 1px 5px 0px gray;
     }
     .header__title {
-        margin: 0;
+        margin-left: 10px;
         font-size: 1.5rem;
     }
     .menu-button {
         display: flex;
+        margin-right: 10px;
     }
 
     .nav {
         width: 30%;
         position: fixed;
-        top: 54px;
+        top: 60.2px;
         right: 0;
     }
     .navigation{
@@ -229,7 +232,7 @@ item ul li a {
     .overlay {
         display: flex;
         position: fixed;
-        top: 54px;
+        top: 60px;
         right: 0;
         bottom: 0;
         left: 0;
